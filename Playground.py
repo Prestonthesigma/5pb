@@ -16,4 +16,3 @@ print("this is my list o numbers:")
 print(numlist)
 sum = numlist[3] + numlist[0] + numlist [8] + numlist [5]
 print("THE ANSWER IS", sum)
--+
