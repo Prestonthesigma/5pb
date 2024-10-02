@@ -3,19 +3,10 @@
 #HW5
 
 print("hello world")
-
-a = 9
-b = 9
-c = 0
-
-if a > b:
-    print ("A is greater than B.")
-elif a < b:
-    print ("A is less than B.")
-
-if a > b > c:
-    print("A is the biggest number")
-elif b > a > c:
-    print("B is the biggest number")
-elif c > a > b:
-    print("C is the biggest number")
+myList = [433,420,411]
+if myList[0] > myList[1] and myList[0] > myList[2]:
+    print("the first number in the list in the greatest"),
+elif myList[1] > myList[0] and myList[1] > myList[2]:
+    print("the second number in the list in the greatest"),
+else:
+    print("the third number in the list in the greatest")
