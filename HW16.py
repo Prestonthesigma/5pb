@@ -33,9 +33,9 @@ def rockpaperscissors():
    elif userinput == 3 and otherplay == 1:
        print('you lose')
    elif userinput == 3 and otherplay == 3:
+
        print("draw")
    repeatgame()
-
 
 
 
